@@ -1,0 +1,4 @@
+body {
+    background-image: resolve('test.png');
+    background-size: 100% 100%;
+}

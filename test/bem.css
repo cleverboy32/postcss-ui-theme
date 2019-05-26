@@ -1,0 +1,16 @@
+@c page-header {
+
+    font-size: 28px;
+    padding: 20px 16px;
+    color: #123456;
+    background-color: gray;
+
+    @m highnight{
+        background-color: blue;
+        color: #fff;
+    }
+
+    @d logo {
+        width: 200px;
+    }
+}

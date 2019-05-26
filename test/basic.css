@@ -1,0 +1,22 @@
+/***  css like sass. */
+$column: 200px;
+
+@define-mixin button-info $color, $border-radius {
+    color: $color;
+    border-radius: $border-radius;
+}
+
+.content-body {
+    width: calc(4 * $column);
+
+    button {
+        font-size: 14px;
+        @mixin button-info blue, 4px;
+
+        &:hover {
+            border-color: red;
+        }
+    }
+}
+
+

@@ -1,0 +1,14 @@
+.awsome-page-header {
+
+    font-size: 28px;
+    padding: 20px 16px;
+    color: #123456;
+    background-color: gray
+}
+.awsome-page-header--highnight {
+        background-color: blue;
+        color: #fff
+}
+.awsome-page-header__logo {
+        width: 200px
+}

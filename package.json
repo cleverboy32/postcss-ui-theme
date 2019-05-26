@@ -1,0 +1,68 @@
+{
+  "name": "postcss-ui-theme",
+  "version": "0.1.0",
+  "descriptioin": "strong postcss plugin to easy make ui theme",
+  "scripts": {
+    "prepublishOnly": "npm test",
+    "pretest": "rollup -c .rollup.js --silent",
+    "test": "npm run test:js && npm run test:tape",
+    "test:js": "eslint src/*.js --cache --ignore-path .gitignore --quiet",
+    "test:tape": "postcss-tape"
+  },
+  "main": "index.js",
+  "module": "index.mjs",
+  "files": [
+    "index.js",
+    "index.mjs"
+  ],
+  "dependencies": {
+    "autoprefixer": "^9.4.3",
+    "postcss": "^7.0.16",
+    "postcss-assets": "^5.0.0",
+    "postcss-calc": "^7.0.1",
+    "postcss-css-reset": "^1.0.2",
+    "postcss-custom-properties": "^6.3.1",
+    "postcss-import": "^12.0.1",
+    "postcss-advanced-variables": "1.2.2",
+    "postcss-property-lookup": "1.2.1",
+    "postcss-extend": "1.0.5",
+    "postcss-import-webpack-resolver": "^1.0.1",
+    "postcss-loader": "^2.0.5",
+    "postcss-mixins": "^6.2.1",
+    "postcss-nested": "^4.1.1",
+    "postcss-nesting": "^7.0.0",
+    "postcss-sass-color-functions": "^1.1.0",
+    "postcss-shape": "0.0.1",
+    "postcss-url": "^7.0.0",
+    "postcss-utils": "^1.0.2",
+    "saladcss-bem": "^0.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.9.0",
+    "eslint-config-dev": "^2.0.0",
+    "postcss-tape": "^2.2.0",
+    "pre-commit": "^1.2.2",
+    "rollup": "^0.67.3",
+    "rollup-plugin-babel": "^4.0.3"
+  },
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "sass",
+    "variables",
+    "theme"
+  ],
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "rules": {
+      "indent": [
+        2,
+        4
+      ]
+    }
+  }
+}

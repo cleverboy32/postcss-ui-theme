@@ -1,0 +1,14 @@
+/***  css like sass. */
+.content-body {
+    width: 800px;
+}
+.content-body button {
+        font-size: 14px;
+        color: blue;
+        border-radius: 4px;
+    }
+.content-body button:hover {
+            border-color: red;
+        }
+
+

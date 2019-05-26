@@ -1,0 +1,16 @@
+/** use css4 variable and keep it in transformed css */
+
+@import './theme/var.css';
+
+button {
+    color: var(--primary);
+    background-color: var(--bg-color);
+
+    &:hover {
+        color: var(--primary-hover);
+    }
+
+    &:active {
+        color: var(--primary-press);
+    }
+}

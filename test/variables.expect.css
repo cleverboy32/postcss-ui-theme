@@ -1,0 +1,26 @@
+/** use css4 variable and keep it in transformed css */
+
+:root {
+    --primary: #ff571a;
+    --primary-press: #e54e17;
+    --primary-hover: #ff9a76;
+
+    --bg-color: #fff;
+}
+
+button {
+    color: #ff571a;
+    color: var(--primary);
+    background-color: #fff;
+    background-color: var(--bg-color);
+}
+
+button:hover {
+        color: #ff9a76;
+        color: var(--primary-hover);
+    }
+
+button:active {
+        color: #e54e17;
+        color: var(--primary-press);
+    }

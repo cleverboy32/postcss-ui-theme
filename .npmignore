@@ -1,0 +1,10 @@
+
+src
+.gitignore
+.index.mjs
+.eslintignore
+.eslintrc
+.rollup.js
+.tape.js
+.package-lock.json
+node_modules
