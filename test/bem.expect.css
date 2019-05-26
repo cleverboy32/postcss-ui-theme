@@ -1,3 +1,5 @@
+/** the bem named */
+
 .awsome-page-header {
 
     font-size: 28px;
@@ -5,10 +7,12 @@
     color: #123456;
     background-color: gray
 }
+
 .awsome-page-header--highnight {
         background-color: blue;
         color: #fff
 }
+
 .awsome-page-header__logo {
         width: 200px
 }

@@ -34,10 +34,10 @@ npm install postcss --save-dev
 #### Use postcss-ui-theme as a plugin:
 ```
 import postcss from 'postcss';
-import postcssUiTheme from 'postcss-ui-theme';
+import postcssUI from 'postcss-ui-theme';
 
 postcss([
-  postcssUiTheme(/* options */)
+  postcssUI(/* options */)
 ]).process(YOUR_CSS);
 ```
 
