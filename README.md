@@ -107,7 +107,7 @@ shortcuts: {
 
 默认配置
 ```
-browsers: ['ie > 8', 'last 2 versions']
+overrideBrowserslist: ['ie > 8', 'last 2 versions']
 ```
 
 
