@@ -23,7 +23,7 @@ optKey[12] = 'customProperties';
 optKey[15] = 'assets';
 var index = postcss.plugin('postcss-ui-theme', rawopts => {
   const opts = Object.assign({
-    browsers: ['ie > 8', 'last 2 versions'],
+    overrideBrowserslist: ['ie > 8', 'last 2 versions'],
     import: {},
     defaultNamespace: undefined,
     separators: {
