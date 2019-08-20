@@ -1,6 +1,6 @@
 {
   "name": "postcss-ui-theme",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "descriptioin": "strong postcss plugin to easy make ui theme",
   "scripts": {
     "prepublishOnly": "npm test",
